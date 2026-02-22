@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Getting Started | Chobitech.DemoKit </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Getting Started | Chobitech.DemoKit ">
+      
+      
+      <link rel="icon" href="favicon.ico">
+      <link rel="stylesheet" href="public/docfx.min.css">
+      <link rel="stylesheet" href="public/main.css">
+      <meta name="docfx:navrel" content="toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/chobitech/Chobitech_DemoKit/blob/main/Documents/getting-started.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="landing" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="logo.svg" alt="Chobitech.DemoKit">
+            Chobitech.DemoKit
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="getting-started">Getting Started</h1>
+
+<p align="right">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
+    <img src="https://img.shields.io/badge/version-1.0.0-orange.svg" alt="Version">
+    <a href="https://github.com/chobitech/Chobitech_DemoKit">
+        <img src="https://img.shields.io/badge/GitHub-Repository-lightgrey?logo=github" alt="GitHub">
+  </a>
+    <img src="https://img.shields.io/badge/Unity-2022.3+-black.svg?logo=unity" alt="Unity Version">
+</p>
+<hr>
+<p>This guide will help you set up <strong>Chobitech.DemoKit</strong> and create your first demo.</p>
+<hr>
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+<li>Unity 2022.3 or later</li>
+<li>TextMeshPro installed</li>
+</ul>
+<hr>
+<h2 id="installation">Installation</h2>
+<ul>
+<li><strong>Import From Asset Store</strong>: Add <strong>Chobitech.DemoKit</strong> to <code>My Asset</code> and import to your project.</li>
+</ul>
+<hr>
+<h2 id="quick-start-using-samples">Quick Start (Using Samples)</h2>
+<p>The fastest way to understand <strong>Chobitech.DemoKit</strong> is to use the provided sample.</p>
+<ol>
+<li>Open <strong>[Package Manager]</strong>.</li>
+<li>Select <strong>Chobitech.DemoKit</strong> in the installed packages.</li>
+<li>Select &quot;Samples&quot; tab, and click &quot;Import&quot;.</li>
+<li>Open the imported scene <strong>DemoMainScene</strong> and run the scene to check the operation.</li>
+</ol>
+<hr>
+<h2 id="callouts-of-demomainscene">Callouts of DemoMainScene</h2>
+<p><img src="images/sample_callouts_re_800.png" alt="Callouts"></p>
+<ol>
+<li><strong>Global Title</strong>: Displays the name of the overall demo project.</li>
+<li><strong>Global Description</strong>: Provides a general overview and instructions for the entire demo toolkit.</li>
+<li><strong>Individual Demo Info</strong>: Shows the title and specific details of the currently selected individual demo. The side panel containing both Global and Individual descriptions can be toggled via the icon button in the top-left corner.</li>
+<li><strong>Demo Controller</strong>: Contains the dropdown for selecting demos and the Run/Stop toggle button.</li>
+<li><strong>Log Console</strong>: Displays real-time logs and execution status for the active demo. This panel can be toggled via the &quot;Open/Close Log&quot; button in the top-right corner.</li>
+</ol>
+<hr>
+<h2 id="your-first-custom-demo">Your First Custom Demo</h2>
+<p>Follow these steps to integrate your own logic:</p>
+<ol>
+<li><h5 id="copy-demomainscene"><u>Copy DemoMainScene</u></h5>
+<p>Copy the scene file <strong>DemoMainScene</strong> from the package to your own project folder.</p>
+<div class="CAUTION">
+<h5>Caution</h5>
+<p>To ensure stability, <strong>do not edit the preset objects</strong> (Orchestrator, Header, Footer, etc.) within the original package scene. Always work on a copied version in your local directory.</p>
+</div>
+</li>
+<li><h5 id="choose-your-base-class"><u>Choose Your Base Class</u></h5>
+<p><strong>Chobitech.DemoKit</strong> supports two distinct coding styles. Create a new script and inherit from the class that fits your needs:</p>
+<ul>
+<li><strong><code>AsyncDemoBase</code></strong>: For modern <code>async/await</code> logic with <code>CancellationToken</code> support.</li>
+<li><strong><code>CoroutineDemoBase</code></strong>: For traditional Unity <code>IEnumerator</code> workflows.</li>
+</ul>
+</li>
+<li><h5 id="implement-demo-logic"><u>Implement Demo Logic</u></h5>
+<p><strong>For Async (<code>AsyncDemoBase</code>):</strong>
+Override <code>DemoProcessAsync</code> to implement your logic.</p>
+<pre><code class="lang-csharp">using System.Threading;
+using System.Threading.Tasks;
+using UnityEngine;
+using Chobitech.DemoKit;
+
+public class MyAsyncDemo : AsyncDemoBase
+{
+    [SerializeField]
+    private SampleCube _demoCube;
+
+    public override async Task DemoProcessAsync(CancellationToken token)
+    {    
+        // Start logging with a custom color tag defined in GlobalDemoInfo
+        AddLogLnWithColorTag(&quot;notice&quot;, $&quot;Start {DemoName}&quot;);
+
+        var elapsedTime = 0f;
+        var durationSec = 2f;
+
+        var initPos = _demoCube.SelfTransform.localPosition;
+
+        while (elapsedTime &lt; durationSec)
+        {
+            // IMPORTANT: Check for cancellation to handle the Stop button
+            token.ThrowIfCancellationRequested();
+
+            var rate = elapsedTime / durationSec;
+            var y = 2f * Mathf.Sin(Mathf.PI * rate * 2);
+            var pos = new Vector3(initPos.x, y, initPos.z);
+
+            AddLogLn($&quot;pos = {pos}&quot;);
+
+            _demoCube.SelfTransform.localPosition = pos;
+
+            elapsedTime += Time.deltaTime;
+
+            await Task.Yield();
+        }
+
+        token.ThrowIfCancellationRequested();
+        _demoCube.SelfTransform.localPosition = initPos;
+        AddLogLnWithColorTag(&quot;notice&quot;, $&quot;{DemoName} Finished&quot;);
+    }
+}
+</code></pre>
+<p><strong>For Coroutine (<code>CoroutineDemoBase</code>):</strong>
+Override <code>DemoRoutine</code> for standard coroutine behavior.</p>
+<pre><code class="lang-csharp">using System.Collections;
+using Chobitech.DemoKit;
+using UnityEngine;
+
+public class MyCoroutineDemo : CoroutineDemoBase
+{
+    [SerializeField]
+    private SampleCube _demoCube;
+
+    public override IEnumerator DemoRoutine()
+    {
+        AddLogLnWithColorTag(&quot;warning&quot;, $&quot;Start {DemoName}&quot;);
+
+        var initPos = _demoCube.SelfTransform.localPosition;
+
+        var durationSec = 2f;
+        var elapsedTime = 0f;
+
+        while (elapsedTime &lt; durationSec)
+        {
+            var rate = elapsedTime / durationSec;
+            var x = 2f * Mathf.Sin(Mathf.PI * rate * 2);
+            var pos = new Vector3(x, initPos.y, initPos.z);
+
+            AddLogLn($&quot;pos = {pos}&quot;);
+
+            _demoCube.SelfTransform.localPosition = pos;
+
+            elapsedTime += Time.deltaTime;
+
+            yield return null;
+        }
+
+        _demoCube.SelfTransform.localPosition = initPos;
+        AddLogLnWithColorTag(&quot;warning&quot;, $&quot;{DemoName} Finished&quot;);
+    }
+}
+</code></pre>
+<div class="TIP">
+<h5>Tip</h5>
+<p><strong>Lifecycle Hooks</strong>: You can override <code>OnDemoCompleted()</code> for success actions, or <code>OnDemoCanceled()</code> to handle cleanup when a demo is stopped by the user.</p>
+</div>
+<div class="NOTE">
+<h5>Note</h5>
+<p><strong>About <code>SampleCube</code></strong>: The following examples use a utility class <code>SampleCube</code> for movement. For details on its implementation (like <code>MaterialPropertyBlock</code> usage), please refer to the script in the Samples folder.</p>
+</div>
+</li>
+<li><h5 id="generate-metadata"><u>Generate Metadata</u></h5>
+<p>Create the metadata assets via <strong>[Assets]</strong> &gt; <strong>[Create]</strong> &gt; <strong>[Chobitech]</strong> &gt; <strong>[DemoKit]</strong>.</p>
+<p><img src="images/asset_menu_800.png" alt="Asset Menu"></p>
+<ol>
+<li><strong><code>GlobalDemoInfo</code></strong>: Holds project-wide settings (Title, Icon, Color Tags).</li>
+<li><strong><code>IndividualDemoInfo</code></strong>: Holds specific info (Name, Description) for each demo.</li>
+</ol>
+</li>
+<li><h5 id="placement-and-connection"><u>Placement and Connection</u></h5>
+<ol>
+<li><p><strong>Attach <code>GlobalDemoInfo</code></strong>: Select <strong>Demo Orchestrator</strong> in your copied scene and assign your <code>GlobalDemoInfo</code> asset.</p>
+<p><img src="images/GlobalDemoInfo_attach_re_800.png" alt="GlobalDemoInfo Attach"></p>
+</li>
+<li><p><strong>Place Demo Object</strong>: Create an empty <code>GameObject</code> as a child of <strong>Demo Container</strong> and attach your custom demo script.</p>
+<p><img src="images/Hierarchy_re.png" alt="Hierarchy"></p>
+</li>
+<li><p><strong>Attach <code>IndividualDemoInfo</code></strong>: In your demo object's Inspector, assign the <code>IndividualDemoInfo</code> asset.</p>
+<p><img src="images/IndividualDemoInfo_attach_re_800.png" alt="IndividualDemoInfo Attach"></p>
+</li>
+</ol>
+</li>
+<li><h5 id="run-the-demo"><u>Run the Demo</u></h5>
+<p>Launch the scene, select your demo from the dropdown, and press &quot;Run&quot;. The <strong>Demo Orchestrator</strong> automatically detects your script and manages its lifecycle.</p>
+</li>
+</ol>
+<hr>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="api/Chobitech.DemoKit.html">API Reference</a></li>
+</ul>
+<hr>
+<ul>
+<li><a href="./">Return to Home</a></li>
+</ul>
+
+</article>
+
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Copyright © 2026 <a href="https://chobitech.com/" target="_blank" rel="noopener">chobitech</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

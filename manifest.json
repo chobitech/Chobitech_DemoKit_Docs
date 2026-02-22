@@ -1,0 +1,795 @@
+{
+  "source_base_path": "C:/Projects/Unity/Chobitech_DemoKit/Documents",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": ".nojekyll",
+      "output": {
+        "resource": {
+          "relative_path": ".nojekyll"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "LICENSE.md",
+      "output": {
+        "resource": {
+          "relative_path": "LICENSE.md"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "LICENSE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.AsyncDemoBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.AsyncDemoBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.AsyncDemoBase",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.AsyncDemoBase.yml\" sourcestartlinenumber=\"1\">Base class for asynchronous demonstrations using Task and CancellationToken.\nIdeal for complex asynchronous logic, awaiting multiple operations, or integrating with Task-based APIs.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.AsyncDemoManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.AsyncDemoManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.AsyncDemoManager",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.AsyncDemoManager.yml\" sourcestartlinenumber=\"1\">Manages the execution lifecycle of an <xref href=\"Chobitech.DemoKit.AsyncDemoBase\" data-throw-if-not-resolved=\"false\"></xref>.\nIt handles task cancellation using <xref href=\"System.Threading.CancellationTokenSource\" data-throw-if-not-resolved=\"false\"></xref> and\nensures that lifecycle hooks are called in the correct order.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.BaseDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.BaseDrawer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.BaseDrawer",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.BaseDrawer.yml\" sourcestartlinenumber=\"1\">A base component that provides side-drawer functionality.\nIt handles UI animations, positioning with margins, and state transitions (open/close).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.CoroutineDemoBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.CoroutineDemoBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.CoroutineDemoBase",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.CoroutineDemoBase.yml\" sourcestartlinenumber=\"1\">Base class for demonstrations using Unity Coroutines (IEnumerator).\nSuitable for tasks that are tightly integrated with the Unity lifecycle or for users\nwho prefer the standard StartCoroutine pattern.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.CoroutineDemoManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.CoroutineDemoManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.CoroutineDemoManager",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.CoroutineDemoManager.yml\" sourcestartlinenumber=\"1\">Manages the execution lifecycle of a <xref href=\"Chobitech.DemoKit.CoroutineDemoBase\" data-throw-if-not-resolved=\"false\"></xref>.\nIt handles starting and stopping Unity Coroutines and ensures that lifecycle hooks\nlike <xref href=\"Chobitech.DemoKit.DemoBase.OnDemoCompleted\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"Chobitech.DemoKit.CoroutineDemoBase.OnDemoCanceled\" data-throw-if-not-resolved=\"false\"></xref> are invoked.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.CustomColorTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.CustomColorTag.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.CustomColorTag",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.CustomColorTag.yml\" sourcestartlinenumber=\"1\">A ScriptableObject that defines a custom color mapping for text tags.\nUsed to associate a specific string tag with a color for rich text processing.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.CustomColorTagExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.CustomColorTagExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.CustomColorTagExtensions",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.CustomColorTagExtensions.yml\" sourcestartlinenumber=\"1\">Provides extension methods for collections of <xref href=\"Chobitech.DemoKit.CustomColorTag\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.CustomColorTagHolder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.CustomColorTagHolder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.CustomColorTagHolder",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.CustomColorTagHolder.yml\" sourcestartlinenumber=\"1\">Manages a collection of <xref href=\"Chobitech.DemoKit.CustomColorTag\" data-throw-if-not-resolved=\"false\"></xref> objects and provides functionality\nto convert custom tags within text into Unity Rich Text format.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.CustomTagController.CustomTagData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.CustomTagController.CustomTagData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.CustomTagController.CustomTagData",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.CustomTagController.CustomTagData.yml\" sourcestartlinenumber=\"1\">A data structure representing the components of a captured custom tag.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.CustomTagController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.CustomTagController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.CustomTagController",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.CustomTagController.yml\" sourcestartlinenumber=\"1\">Static controller responsible for parsing and converting custom text tags (e.g., [tag]content[/tag]).\nIt uses regular expressions to identify tags and provides hooks for custom string conversion.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.DemoBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.DemoBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.DemoBase",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.DemoBase.yml\" sourcestartlinenumber=\"1\">Base class for all demonstration components.\nProvides common functionality for metadata management, logging, and lifecycle hooks.\nThis class is inherited by <xref href=\"Chobitech.DemoKit.AsyncDemoBase\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"Chobitech.DemoKit.CoroutineDemoBase\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.DemoDescriptionArea.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.DemoDescriptionArea.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.DemoDescriptionArea",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.DemoDescriptionArea.yml\" sourcestartlinenumber=\"1\">Manages the description area of the UI, including global and individual demo information.\nIt coordinates with a <xref href=\"Chobitech.DemoKit.DemoDescriptionArea.BaseDrawer\" data-throw-if-not-resolved=\"false\"></xref> component to handle expansion and icon state transitions.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.DemoFooter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.DemoFooter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.DemoFooter",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.DemoFooter.yml\" sourcestartlinenumber=\"1\">Represents the footer UI component of the DemoKit.\nProvides controls for selecting individual demos via a dropdown and executing them with a run button.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.DemoHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.DemoHeader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.DemoHeader",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.DemoHeader.yml\" sourcestartlinenumber=\"1\">Represents the header UI component of the DemoKit.\nManages the display of the main demonstration title and its associated icon.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.DemoKitExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.DemoKitExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.DemoKitExtensions",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.DemoKitExtensions.yml\" sourcestartlinenumber=\"1\">Provides a set of static extension methods used throughout the DemoKit system\nfor color conversion and safe Unity Object execution.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.DemoLogArea.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.DemoLogArea.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.DemoLogArea",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.DemoLogArea.yml\" sourcestartlinenumber=\"1\">Manages the log display area within the DemoKit.\nHandles log updates, auto-scroll behavior, and coordination with a <xref href=\"Chobitech.DemoKit.DemoLogArea.BaseDrawer\" data-throw-if-not-resolved=\"false\"></xref> for UI transitions.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.DemoManagerBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.DemoManagerBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.DemoManagerBase",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.DemoManagerBase.yml\" sourcestartlinenumber=\"1\">Abstract base class for managing the execution lifecycle of a demonstration.\nIt abstracts the differences between Task-based and Coroutine-based execution,\nproviding a unified interface for the orchestrator.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.DemoOrchestrator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.DemoOrchestrator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.DemoOrchestrator",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.DemoOrchestrator.yml\" sourcestartlinenumber=\"1\">The central controller for the DemoKit system.\nIt manages the lifecycle of demonstrations, coordinates between UI components (Header, Footer, Log, Description),\nand handles asynchronous execution and cancellation of demo processes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.GlobalDemoInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.GlobalDemoInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.GlobalDemoInfo",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.GlobalDemoInfo.yml\" sourcestartlinenumber=\"1\">A ScriptableObject that stores global configuration and metadata for the entire DemoKit system.\nIt centralizes information like titles, icons, and shared rich text color tags.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.IndividualDemoInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.IndividualDemoInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.IndividualDemoInfo",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.IndividualDemoInfo.yml\" sourcestartlinenumber=\"1\">A ScriptableObject that holds general information about an individual demonstration.\nThis is typically used to store metadata such as the demo's title and a detailed description\nfor display in the UI.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.RectTransformCachedMonoBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.RectTransformCachedMonoBehaviour.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.RectTransformCachedMonoBehaviour",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.RectTransformCachedMonoBehaviour.yml\" sourcestartlinenumber=\"1\">A base class for MonoBehaviours that frequently access their <xref href=\"UnityEngine.RectTransform\" data-throw-if-not-resolved=\"false\"></xref>.\nIt caches the RectTransform component during the Awake phase to improve performance\nby avoiding repeated GetComponent calls.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.ScrollTextArea.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.ScrollTextArea.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.ScrollTextArea",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.ScrollTextArea.yml\" sourcestartlinenumber=\"1\">A UI component that provides a scrollable text area with optional title support.\nIt handles automatic/manual scrolling, text wrapping configurations, and detects user interaction\nthrough <xref href=\"Chobitech.DemoKit.UserScrollDetector\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"Chobitech.DemoKit.UserScrollBarTouchDetector\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.UserScrollBarTouchDetector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.UserScrollBarTouchDetector.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.UserScrollBarTouchDetector",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.UserScrollBarTouchDetector.yml\" sourcestartlinenumber=\"1\">Detects touch or click interactions specifically for a scroll bar.\nImplements Unity's EventSystem interfaces to track the pressing state,\nwhich is useful for pausing auto-scroll behavior when the user interacts with the UI.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.UserScrollDetector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.UserScrollDetector.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.UserScrollDetector",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.UserScrollDetector.yml\" sourcestartlinenumber=\"1\">Detects user-initiated scrolling or dragging within a UI area.\nThis component triggers an event when the user interacts with a scroll view\nthrough dragging or mouse wheel input, allowing other systems to respond to manual navigation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit",
+      "Summary": null
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GlobalDemoInfo_attach.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/GlobalDemoInfo_attach.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GlobalDemoInfo_attach.psd",
+      "output": {
+        "resource": {
+          "relative_path": "images/GlobalDemoInfo_attach.psd"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GlobalDemoInfo_attach_800.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/GlobalDemoInfo_attach_800.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GlobalDemoInfo_attach_full.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/GlobalDemoInfo_attach_full.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GlobalDemoInfo_attach_re.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/GlobalDemoInfo_attach_re.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GlobalDemoInfo_attach_re.psd",
+      "output": {
+        "resource": {
+          "relative_path": "images/GlobalDemoInfo_attach_re.psd"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/GlobalDemoInfo_attach_re_800.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/GlobalDemoInfo_attach_re_800.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Hierarchy.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Hierarchy.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Hierarchy.psd",
+      "output": {
+        "resource": {
+          "relative_path": "images/Hierarchy.psd"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Hierarchy_re.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Hierarchy_re.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Hierarchy_re.psd",
+      "output": {
+        "resource": {
+          "relative_path": "images/Hierarchy_re.psd"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/IndividualDemoInfo_attach.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/IndividualDemoInfo_attach.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/IndividualDemoInfo_attach.psd",
+      "output": {
+        "resource": {
+          "relative_path": "images/IndividualDemoInfo_attach.psd"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/IndividualDemoInfo_attach_800.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/IndividualDemoInfo_attach_800.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/IndividualDemoInfo_attach_f.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/IndividualDemoInfo_attach_f.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/IndividualDemoInfo_attach_re.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/IndividualDemoInfo_attach_re.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/IndividualDemoInfo_attach_re.psd",
+      "output": {
+        "resource": {
+          "relative_path": "images/IndividualDemoInfo_attach_re.psd"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/IndividualDemoInfo_attach_re_800.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/IndividualDemoInfo_attach_re_800.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/asset_menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/asset_menu.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/asset_menu.psd",
+      "output": {
+        "resource": {
+          "relative_path": "images/asset_menu.psd"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/asset_menu_800.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/asset_menu_800.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/individual_demo_info_inspector.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/individual_demo_info_inspector.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sample_callout.psd",
+      "output": {
+        "resource": {
+          "relative_path": "images/sample_callout.psd"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sample_callouts.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sample_callouts.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sample_callouts_800.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sample_callouts_800.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sample_callouts_re.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sample_callouts_re.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sample_callouts_re.psd",
+      "output": {
+        "resource": {
+          "relative_path": "images/sample_callouts_re.psd"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sample_callouts_re_800.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sample_callouts_re_800.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sample_callouts_small.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sample_callouts_small.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/sample_whole_01.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/sample_whole_01.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/スクリーンショット 2026-02-21 114245.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/スクリーンショット 2026-02-21 114245.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/スクリーンショット 2026-02-21 125252.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/スクリーンショット 2026-02-21 125252.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/スクリーンショット 2026-02-21 125257.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/スクリーンショット 2026-02-21 125257.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/スクリーンショット 2026-02-21 125458.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/スクリーンショット 2026-02-21 125458.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

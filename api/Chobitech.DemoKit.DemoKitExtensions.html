@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class DemoKitExtensions | Chobitech.DemoKit </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class DemoKitExtensions | Chobitech.DemoKit ">
+      
+      <meta name="description" content="Provides a set of static extension methods used throughout the DemoKit system for color conversion and safe Unity Object execution.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/chobitech/Chobitech_DemoKit/new/main/apiSpec/new?filename=Chobitech_DemoKit_DemoKitExtensions.md&amp;value=---%0Auid%3A%20Chobitech.DemoKit.DemoKitExtensions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Chobitech.DemoKit">
+            Chobitech.DemoKit
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Chobitech.DemoKit.DemoKitExtensions">
+
+
+
+  <h1 id="Chobitech_DemoKit_DemoKitExtensions" data-uid="Chobitech.DemoKit.DemoKitExtensions" class="text-break">
+Class DemoKitExtensions  <a class="header-action link-secondary" title="View source" href="https://github.com/chobitech/Chobitech_DemoKit/blob/main/Assets/Chobitech/DemoKit/Runtime/Common/DemoKitExtensions.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Chobitech.html">Chobitech</a>.<a class="xref" href="Chobitech.DemoKit.html">DemoKit</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Chobitech.DemoKit.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Provides a set of static extension methods used throughout the DemoKit system
+for color conversion and safe Unity Object execution.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class DemoKitExtensions</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">DemoKitExtensions</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Chobitech_DemoKit_DemoKitExtensions_RunIfUnityObjectIsNotNull_" data-uid="Chobitech.DemoKit.DemoKitExtensions.RunIfUnityObjectIsNotNull*"></a>
+
+  <h3 id="Chobitech_DemoKit_DemoKitExtensions_RunIfUnityObjectIsNotNull__1_System_Object___0_UnityEngine_Events_UnityAction___0__" data-uid="Chobitech.DemoKit.DemoKitExtensions.RunIfUnityObjectIsNotNull``1(System.Object,``0,UnityEngine.Events.UnityAction{``0})">
+  RunIfUnityObjectIsNotNull&lt;U&gt;(object, U, UnityAction&lt;U&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/chobitech/Chobitech_DemoKit/blob/main/Assets/Chobitech/DemoKit/Runtime/Common/DemoKitExtensions.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Safely executes an action that takes a Unity Object, provided the object is not null.
+Logs a warning if the Unity Object is null.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RunIfUnityObjectIsNotNull&lt;U&gt;(this object obj, U unityObj, UnityAction&lt;U&gt; action) where U : Object</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The calling object.</p>
+</dd>
+    <dt><code>unityObj</code> <span class="xref">U</span></dt>
+    <dd><p>The Unity Object to check.</p>
+</dd>
+    <dt><code>action</code> <span class="xref">UnityAction</span>&lt;U&gt;</dt>
+    <dd><p>The action to execute if the object is valid.</p>
+</dd>
+  </dl>
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>U</code></dt>
+    <dd><p>The type of the Unity Object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Chobitech_DemoKit_DemoKitExtensions_RunIfUnityObjectIsNotNull_" data-uid="Chobitech.DemoKit.DemoKitExtensions.RunIfUnityObjectIsNotNull*"></a>
+
+  <h3 id="Chobitech_DemoKit_DemoKitExtensions_RunIfUnityObjectIsNotNull__2_System_Object___1_System_Func___1___0____0_" data-uid="Chobitech.DemoKit.DemoKitExtensions.RunIfUnityObjectIsNotNull``2(System.Object,``1,System.Func{``1,``0},``0)">
+  RunIfUnityObjectIsNotNull&lt;T, U&gt;(object, U, Func&lt;U, T&gt;, T)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/chobitech/Chobitech_DemoKit/blob/main/Assets/Chobitech/DemoKit/Runtime/Common/DemoKitExtensions.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Safely executes a function that takes a Unity Object, provided the object is not null.
+Logs a warning if the Unity Object is null.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T RunIfUnityObjectIsNotNull&lt;T, U&gt;(this object obj, U unityObj, Func&lt;U, T&gt; func, T defVal = default) where U : Object</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The calling object.</p>
+</dd>
+    <dt><code>unityObj</code> <span class="xref">U</span></dt>
+    <dd><p>The Unity Object to check.</p>
+</dd>
+    <dt><code>func</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;U, T&gt;</dt>
+    <dd><p>The function to execute if the object is valid.</p>
+</dd>
+    <dt><code>defVal</code> <span class="xref">T</span></dt>
+    <dd><p>The default value to return if the object is null.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>The result of the function or the default value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>The return type of the function.</p>
+</dd>
+    <dt><code>U</code></dt>
+    <dd><p>The type of the Unity Object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="Chobitech_DemoKit_DemoKitExtensions_ToHex_" data-uid="Chobitech.DemoKit.DemoKitExtensions.ToHex*"></a>
+
+  <h3 id="Chobitech_DemoKit_DemoKitExtensions_ToHex_System_Int32_" data-uid="Chobitech.DemoKit.DemoKitExtensions.ToHex(System.Int32)">
+  ToHex(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/chobitech/Chobitech_DemoKit/blob/main/Assets/Chobitech/DemoKit/Runtime/Common/DemoKitExtensions.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts an integer to a lowercase two-digit hexadecimal string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ToHex(this int i)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The integer value to convert.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A hexadecimal string (e.g., &quot;ff&quot;).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Chobitech_DemoKit_DemoKitExtensions_ToHex_" data-uid="Chobitech.DemoKit.DemoKitExtensions.ToHex*"></a>
+
+  <h3 id="Chobitech_DemoKit_DemoKitExtensions_ToHex_System_Single_" data-uid="Chobitech.DemoKit.DemoKitExtensions.ToHex(System.Single)">
+  ToHex(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/chobitech/Chobitech_DemoKit/blob/main/Assets/Chobitech/DemoKit/Runtime/Common/DemoKitExtensions.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts a normalized float value to a two-digit hexadecimal string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ToHex(this float f)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The normalized float value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A hexadecimal string representation of the float.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Chobitech_DemoKit_DemoKitExtensions_ToHexInt_" data-uid="Chobitech.DemoKit.DemoKitExtensions.ToHexInt*"></a>
+
+  <h3 id="Chobitech_DemoKit_DemoKitExtensions_ToHexInt_System_Single_" data-uid="Chobitech.DemoKit.DemoKitExtensions.ToHexInt(System.Single)">
+  ToHexInt(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/chobitech/Chobitech_DemoKit/blob/main/Assets/Chobitech/DemoKit/Runtime/Common/DemoKitExtensions.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts a normalized float value (0.0 to 1.0) to a byte-range integer (0 to 255).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int ToHexInt(this float f)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The normalized float value.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>An integer clamped between 0 and 255.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Chobitech_DemoKit_DemoKitExtensions_ToHexString_" data-uid="Chobitech.DemoKit.DemoKitExtensions.ToHexString*"></a>
+
+  <h3 id="Chobitech_DemoKit_DemoKitExtensions_ToHexString_UnityEngine_Color_" data-uid="Chobitech.DemoKit.DemoKitExtensions.ToHexString(UnityEngine.Color)">
+  ToHexString(Color)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/chobitech/Chobitech_DemoKit/blob/main/Assets/Chobitech/DemoKit/Runtime/Common/DemoKitExtensions.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts a Unity Color to a hexadecimal color string with a leading hash.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ToHexString(this Color c)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>c</code> <span class="xref">Color</span></dt>
+    <dd><p>The color to convert.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string in the format #RRGGBBAA.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Copyright © 2026 <a href="https://chobitech.com/" target="_blank" rel="noopener">chobitech</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
