@@ -12,17 +12,37 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": ".nojekyll",
+      "source_relative_path": "../Assets/Chobitech/DemoKit/CHANGELOG.md",
       "output": {
         "resource": {
-          "relative_path": ".nojekyll"
+          "relative_path": "CHANGELOG.md"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/Chobitech/DemoKit/CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "CHANGELOG.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/Chobitech/DemoKit/LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "LICENSE.html"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "LICENSE.md",
+      "source_relative_path": "../Assets/Chobitech/DemoKit/LICENSE.md",
       "output": {
         "resource": {
           "relative_path": "LICENSE.md"
@@ -31,11 +51,11 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "LICENSE.md",
+      "type": "Resource",
+      "source_relative_path": ".nojekyll",
       "output": {
-        ".html": {
-          "relative_path": "LICENSE.html"
+        "resource": {
+          "relative_path": ".nojekyll"
         }
       },
       "version": ""
@@ -425,60 +445,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/GlobalDemoInfo_attach.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/GlobalDemoInfo_attach.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/GlobalDemoInfo_attach.psd",
-      "output": {
-        "resource": {
-          "relative_path": "images/GlobalDemoInfo_attach.psd"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/GlobalDemoInfo_attach_800.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/GlobalDemoInfo_attach_800.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/GlobalDemoInfo_attach_full.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/GlobalDemoInfo_attach_full.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
       "source_relative_path": "images/GlobalDemoInfo_attach_re.png",
       "output": {
         "resource": {
           "relative_path": "images/GlobalDemoInfo_attach_re.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/GlobalDemoInfo_attach_re.psd",
-      "output": {
-        "resource": {
-          "relative_path": "images/GlobalDemoInfo_attach_re.psd"
         }
       },
       "version": ""
@@ -495,80 +465,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/Hierarchy.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/Hierarchy.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/Hierarchy.psd",
-      "output": {
-        "resource": {
-          "relative_path": "images/Hierarchy.psd"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
       "source_relative_path": "images/Hierarchy_re.png",
       "output": {
         "resource": {
           "relative_path": "images/Hierarchy_re.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/Hierarchy_re.psd",
-      "output": {
-        "resource": {
-          "relative_path": "images/Hierarchy_re.psd"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/IndividualDemoInfo_attach.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/IndividualDemoInfo_attach.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/IndividualDemoInfo_attach.psd",
-      "output": {
-        "resource": {
-          "relative_path": "images/IndividualDemoInfo_attach.psd"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/IndividualDemoInfo_attach_800.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/IndividualDemoInfo_attach_800.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/IndividualDemoInfo_attach_f.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/IndividualDemoInfo_attach_f.png"
         }
       },
       "version": ""
@@ -585,40 +485,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/IndividualDemoInfo_attach_re.psd",
-      "output": {
-        "resource": {
-          "relative_path": "images/IndividualDemoInfo_attach_re.psd"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
       "source_relative_path": "images/IndividualDemoInfo_attach_re_800.png",
       "output": {
         "resource": {
           "relative_path": "images/IndividualDemoInfo_attach_re_800.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/asset_menu.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/asset_menu.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/asset_menu.psd",
-      "output": {
-        "resource": {
-          "relative_path": "images/asset_menu.psd"
         }
       },
       "version": ""
@@ -635,46 +505,6 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/individual_demo_info_inspector.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/individual_demo_info_inspector.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/sample_callout.psd",
-      "output": {
-        "resource": {
-          "relative_path": "images/sample_callout.psd"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/sample_callouts.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/sample_callouts.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/sample_callouts_800.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/sample_callouts_800.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
       "source_relative_path": "images/sample_callouts_re.png",
       "output": {
         "resource": {
@@ -685,80 +515,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/sample_callouts_re.psd",
-      "output": {
-        "resource": {
-          "relative_path": "images/sample_callouts_re.psd"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
       "source_relative_path": "images/sample_callouts_re_800.png",
       "output": {
         "resource": {
           "relative_path": "images/sample_callouts_re_800.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/sample_callouts_small.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/sample_callouts_small.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/sample_whole_01.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/sample_whole_01.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/スクリーンショット 2026-02-21 114245.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/スクリーンショット 2026-02-21 114245.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/スクリーンショット 2026-02-21 125252.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/スクリーンショット 2026-02-21 125252.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/スクリーンショット 2026-02-21 125257.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/スクリーンショット 2026-02-21 125257.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/スクリーンショット 2026-02-21 125458.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/スクリーンショット 2026-02-21 125458.png"
         }
       },
       "version": ""
