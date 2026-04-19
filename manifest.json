@@ -1,0 +1,381 @@
+{
+  "source_base_path": "C:/Projects/Unity/Chobitech_DemoKit/Documents",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/Chobitech/DemoKit/CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "CHANGELOG.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../Assets/Chobitech/DemoKit/CHANGELOG.md",
+      "output": {
+        "resource": {
+          "relative_path": "CHANGELOG.md"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Assets/Chobitech/DemoKit/LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "LICENSE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../Assets/Chobitech/DemoKit/LICENSE.md",
+      "output": {
+        "resource": {
+          "relative_path": "LICENSE.md"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": ".nojekyll",
+      "output": {
+        "resource": {
+          "relative_path": ".nojekyll"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.AsyncDemoBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.AsyncDemoBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.AsyncDemoBase",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.AsyncDemoBase.yml\" sourcestartlinenumber=\"1\">Base class for asynchronous demonstrations using Task and CancellationToken.\nIdeal for complex asynchronous logic, awaiting multiple operations, or integrating with Task-based APIs.\nThis class inherits from <xref href=\"Chobitech.DemoKit.DemoBase\" data-throw-if-not-resolved=\"false\"></xref> to provide metadata and logging functionality.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.CoroutineDemoBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.CoroutineDemoBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.CoroutineDemoBase",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.CoroutineDemoBase.yml\" sourcestartlinenumber=\"1\">Base class for demonstrations using Unity Coroutines (IEnumerator).\nSuitable for tasks that are tightly integrated with the Unity lifecycle or for users\nwho prefer the standard StartCoroutine pattern.\nInherits from <xref href=\"Chobitech.DemoKit.DemoBase\" data-throw-if-not-resolved=\"false\"></xref> to provide metadata and logging functionality.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.CustomColorTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.CustomColorTag.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.CustomColorTag",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.CustomColorTag.yml\" sourcestartlinenumber=\"1\">A ScriptableObject that defines a custom color mapping for text tags.\nUsed to associate a specific string tag with a color for rich text processing within the DemoKit log system.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.CustomColorTagExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.CustomColorTagExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.CustomColorTagExtensions",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.CustomColorTagExtensions.yml\" sourcestartlinenumber=\"1\">Provides extension methods for collections of <xref href=\"Chobitech.DemoKit.CustomColorTag\" data-throw-if-not-resolved=\"false\"></xref> to facilitate color processing.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.DemoBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.DemoBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.DemoBase",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.DemoBase.yml\" sourcestartlinenumber=\"1\">Base class for all demonstration components.\nProvides common functionality for metadata management, logging, and lifecycle hooks.\nThis class is inherited by <xref href=\"Chobitech.DemoKit.AsyncDemoBase\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"Chobitech.DemoKit.CoroutineDemoBase\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.DemoKitExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.DemoKitExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.DemoKitExtensions",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.DemoKitExtensions.yml\" sourcestartlinenumber=\"1\">Provides a set of static extension methods used throughout the DemoKit system\nfor color conversion, safe Unity Object execution, and functional programming patterns.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.DemoKitLog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.DemoKitLog.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.DemoKitLog",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.DemoKitLog.yml\" sourcestartlinenumber=\"1\">Provides a standardized logging interface for the DemoKit package.\nAll logs are prefixed with a rich text tag and are conditionally compiled to be editor-only.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.DemoKitUtils.DefaultValues.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.DemoKitUtils.DefaultValues.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.DemoKitUtils.DefaultValues",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.DemoKitUtils.DefaultValues.yml\" sourcestartlinenumber=\"1\">Contains default strings and file names used during the demo generation process.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.DemoKitUtils.PresetGUID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.DemoKitUtils.PresetGUID.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.DemoKitUtils.PresetGUID",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.DemoKitUtils.PresetGUID.yml\" sourcestartlinenumber=\"1\">Contains constant GUID strings for identifying specific assets and folders within the project.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.DemoKitUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.DemoKitUtils.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.DemoKitUtils",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.DemoKitUtils.yml\" sourcestartlinenumber=\"1\">Provides utility constants and shared properties for the DemoKit system.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.DemoOrchestrator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.DemoOrchestrator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.DemoOrchestrator",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.DemoOrchestrator.yml\" sourcestartlinenumber=\"1\">The central controller for the DemoKit system.\nIt manages the lifecycle of demonstrations, coordinates between UI components (Header, Footer, Log, Description),\nand handles asynchronous execution and cancellation of demo processes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.GlobalDemoInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.GlobalDemoInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.GlobalDemoInfo",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.GlobalDemoInfo.yml\" sourcestartlinenumber=\"1\">A ScriptableObject that stores global configuration and metadata for the entire DemoKit system.\nIt centralizes information like titles, icons, and shared rich text color tags used by all demo scenes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.IndividualDemoInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.IndividualDemoInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit.IndividualDemoInfo",
+      "Summary": "<p sourcefile=\"api/Chobitech.DemoKit.IndividualDemoInfo.yml\" sourcestartlinenumber=\"1\">A ScriptableObject that holds specific metadata for an individual demonstration.\nIt stores the title and a detailed description to be displayed within the DemoKit UI system.\nEach <xref href=\"Chobitech.DemoKit.DemoBase\" data-throw-if-not-resolved=\"false\"></xref> component requires a reference to this asset.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Chobitech.DemoKit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Chobitech.DemoKit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Chobitech.DemoKit",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/gs_01_initial_setup.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/gs_01_initial_setup.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/gs_01_setup_window.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/gs_01_setup_window.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/gs_0_import_required_assets.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/gs_0_import_required_assets.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/gs_demos_in_container.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/gs_demos_in_container.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/gs_distribution_setup.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/gs_distribution_setup.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/gs_sample_ss.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/gs_sample_ss.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/gs_setup_window_overview.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/gs_setup_window_overview.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
